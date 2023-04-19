@@ -37,7 +37,7 @@ export default function ProductsCard(props) {
                 <strong className="rating">{rating}</strong>
                 <h4 className="title">{title}</h4>
                 <h3 className="price">₹ {price.toLocaleString()}</h3>
-                <div style={{display:"flex",width:"300px",justifyContent:"center"}}><button 
+                <div style={{display:"flex",width:"100%",justifyContent:"center"}}><button 
                   type="button"
                   className={`btn ${isAdded ? 'added' : ''}`}
                   onClick={handleAddToCart}>
